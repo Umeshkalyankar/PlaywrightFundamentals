@@ -29,8 +29,11 @@ npx playwright test
     - `Test_Annotations.spec.ts` – Test annotations
     - `ttaCart.spec.ts` – Shopping cart test
   - `02_Locator_Strategy/` – Locator strategies and selectors
-    - `Pro_CuraHealth.spec.ts` – CuraHealth login tests with locator strategies
-    - `Project_Wingify.spec.ts` – Wingify project tests
+    - `CuraHealth.spec.ts` – Cura Health login scenarios
+    - `Facebook_pw_Locator.spec.ts` – Facebook locator examples
+    - `Wingify_getByRole.spec.ts` – Wingify tests using role locators
+    - `Wingify_Loacators.spec.ts` – Wingify locator examples
+    - `Xpath.spec.ts` – XPath locator examples
 - `playwright.config.ts` – Playwright runtime configuration
 - `playwright-report/` – Generated HTML reports
 - `test-results/` – Captured test artifacts
@@ -49,10 +52,11 @@ Covers fundamental Playwright concepts including:
 
 ### 02_Locator_Strategy
 
-Advanced locator strategies and selector techniques for:
+Advanced locator strategies and selector techniques covering:
 
-- Web application testing (CuraHealth)
-- UI automation with various locator strategies (Wingify)
+- Cura Health and Facebook web application testing
+- Wingify UI automation with role-based and other locator strategies
+- XPath selectors
 
 ## Notes
 
