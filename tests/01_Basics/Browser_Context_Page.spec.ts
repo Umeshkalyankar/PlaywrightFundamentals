@@ -6,7 +6,7 @@ import {test, expect, chromium, Browser, BrowserContext, Page} from '@playwright
 
 test("Verify google", async()=> {
 // Level 1 = Launch browser
-const browser = await chromium.launch();
+const browser = await chromium.launch({headless: false});
 
 // Level 2 = Create context - fresh session, isolated cookies
 const context = await browser.newContext();
