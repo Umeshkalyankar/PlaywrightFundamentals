@@ -49,17 +49,16 @@ npm run allure:open
     - `ttaCart.spec.ts` – Shopping cart test
   - `02_Locator_Strategy/` – Locator strategies and selectors
     - `CuraHealth.spec.ts` – Cura Health login scenarios
-    - `Facebook_pw_Locator.spec.ts` – Facebook locator examples
-    - `Wingify_getByRole.spec.ts` – Wingify tests using role locators
     - `Wingify_Loacators.spec.ts` – Wingify locator examples
     - `Xpath.spec.ts` – XPath locator examples
-  - `03_Locator_Commands/` – Reserved for locator command examples
+  - `03_Locator_Commands/` – Locator commands and end-to-end interactions
+    - `PlaywrightLocator.spec.ts` – Locator and transfer workflow example
   - `04_Session_Storage/` – Session storage and authenticated-state scenarios
     - `BankDashboard.spec.ts` – Bank dashboard session scenario
     - `BankLoginSessionStorage.spec.ts` – Login state with session storage
     - `SessionStorage.spec.ts` – Session storage examples
     - `test_ttaCartInventory.spec.ts` – Cart inventory session scenario
-  - `05_Allure_Reporting/` – Reserved for Allure reporting examples
+  - `05_Allure_Reporting/` – Allure reporting examples
   - `06_Multi_Element/` – Interactions with multiple matching elements
     - `MultiElement.spec.ts` – Multi-element examples
   - `07_Webtables/` – Web table interactions and data extraction
@@ -90,6 +89,10 @@ Advanced locator strategies and selector techniques covering:
 - Cura Health and Facebook web application testing
 - Wingify UI automation with role-based and other locator strategies
 - XPath selectors
+
+### 03_Locator_Commands
+
+Covers combining Playwright locators and commands to complete an authenticated money-transfer workflow.
 
 ### 04_Session_Storage
 
