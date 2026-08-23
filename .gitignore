@@ -5,3 +5,9 @@ node_modules/
 # Playwright session files
 admin-session.json
 user-session.json
+
+# Generated test reports and artifacts
+playwright-report/
+test-results/
+allure-results/
+allure-report/
