@@ -36,7 +36,7 @@ test('Handle Employee Directory Table', async({page})=> {
 
             // Get the text present inside the current cell
             const data = await page.locator(dynamicPath).innerText();
-            //console.log(data);
+            console.log(data);
 
             // Search for Rohan.Mehta
             if(data.includes('Vikram.Singh')) {

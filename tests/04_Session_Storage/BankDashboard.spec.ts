@@ -4,11 +4,13 @@ test.use({
     storageState:'./admin-session.json'
 });
 
-test('Verify bank dashboard page - no logn', async({page}) =>{
+test('Verify bank dashboard page - no login', async({page}) =>{
     await page.goto('https://app.thetestingacademy.com/playwright/tta-bank/dashboard');
 
     await expect(page).toHaveTitle("TTA Bank - Dashboard");
     console.log("Title is verified.");
 
     await page.getByTestId('nav-logout').click();
+
+    await page.waitForTimeout(2000);
 })
