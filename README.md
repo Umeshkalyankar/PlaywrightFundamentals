@@ -61,9 +61,16 @@ npm run allure:open
   - `05_Allure_Reporting/` – Allure reporting examples
   - `06_Multi_Element/` – Interactions with multiple matching elements
     - `MultiElement.spec.ts` – Multi-element examples
+    - `Filter_Concept.spec.ts` – Filtering matching elements
   - `07_Webtables/` – Web table interactions and data extraction
     - `EmployeeDirectoryTable.spec.ts` – Employee directory table scenarios
     - `HandleWebtable.spec.ts` – Web table handling examples
+    - `ByFilter.spec.ts` – Filtering table rows
+    - `CompaniesDirectory.spec.ts` – Companies directory table scenarios
+    - `OrangeHrm_Table.spec.ts` – OrangeHRM table scenarios
+    - `Pagination.spec.ts` – Paginated table interactions
+    - `Pagination_Function.spec.ts` – Reusable pagination workflow
+    - `Webtable_xpath.spec.ts` – XPath-based table interactions
   - `Practice/` – Practice scenarios
 - `playwright.config.ts` – Playwright runtime configuration
 - `playwright-report/` – Generated HTML report output
@@ -100,11 +107,11 @@ Covers preserving and reusing browser session state for authenticated workflows,
 
 ### 06_Multi_Element
 
-Covers locating and interacting with multiple elements that share the same selector or role.
+Covers locating, filtering, and interacting with multiple elements that share the same selector or role.
 
 ### 07_Webtables
 
-Covers reading, filtering, and interacting with tabular data in web applications.
+Covers reading, filtering, paginating, and interacting with tabular data in web applications.
 
 ## Notes
 
